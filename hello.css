@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.back{
+    width: 100%;
+    border-style: none;
+    height: 3.5cm;
+    background-color: #0b3243;
+    
+}
+.name{
+    color: white;
+    font-size: 40px;
+    padding-top: -150px;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.accntno{
+    color: white;
+    font-size: larger;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.phnno{
+     color: white;
+    font-size: larger;
+    margin-left: 40px;
+}
+.boxes{
+   background-color: white;
+    height: 14.5cm;
+    margin-top: -30px;
+}
+
+.savingsbox1{
+    background-color: #ffc200;
+    height: 100px;
+    width:190px;
+    border-radius: 1cm;
+    margin-top: 50px;
+    margin-left: 90px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 110px;
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+
+.savingsbox2{
+    background-color: #128de1;
+    height: 100px;
+    width: 210px;
+    border-radius: 1cm;
+    margin-left: 440px;
+    margin-top: -120px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 90px;
+}
+
+.savingsbox3{
+    background-color: #05d0c9;
+    height: 100px;
+    width: 190px;
+    border-radius: 1cm;
+    margin-left: 790px;
+    margin-top: -120px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 110px;
+}
+
+.savingsbox4{
+    background-color: #76d475;
+    height: 100px;
+    width: 190px;
+    border-radius: 1cm;
+    margin-top: -120px;
+    margin-left: 1140px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 110px;
+}
+
+.market{
+    margin-left: 700px;
+    margin-top: -400px;
+}
+.market button{
+    background-color: #0b3243;
+    height: 1.5cm;
+    width: 3.5cm;
+    border-style: none;
+    border-radius: 1cm;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Arial Bold', sans-serif , 'Monofonto';
+
+}
+
+.market button a{
+    text-decoration: none;
+    color: white;
+}
+.tradingview-widget-container8{
+    margin-top: 10px;
+    margin-left: 20%;
+    height: 12cm;
+}
+
+.note{
+    margin-left: 500px;
+}

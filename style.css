@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.logo{
+    margin-left: -450px;
+    margin-top: -25px;
+}
+
+.nav{
+    margin-top: -835px;
+}
+
+.navlist{
+    list-style: none;
+    display: flex;
+    margin-top: 0px;
+    font-size: larger;
+    margin-left: 30vw;
+    font-family: 'Arial Bold', sans-serif , 'Monofonto';
+    position: fixed;
+}
+
+.navlist li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navlist a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.hyy{
+    margin-left: 400px;
+}
+
+navbar ul li a:hover{
+    border-radius: 1cm;
+    color: rgb(55, 51, 51);
+    transition: 0.5s;
+}
+
+ 
+
+.mainheading{
+    color: white;
+    margin-top: 140px;
+    margin-left: 100px;
+    font-size: 50px;
+    font-weight:bolder;
+    font-family: var(--sans);
+}
+
+.maintagline{
+    color: white;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: large;
+    font-family: 'Arial Bold', sans-serif , 'Monofonto';
+}
+
+.sign{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.sign button{
+    background-color: #296,2ff;
+    height: 1.5cm;
+    width: 3.5cm;
+    border-style: none;
+    border-radius: 1cm;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Arial Bold', sans-serif , 'Monofonto';
+}
+
+.sign button a{
+    text-decoration: none;
+    color: white;
+}
+
+#about{
+    background-color: #393f3c;
+    height: 23cm;
+    margin-top: 210px;
+}
+.aboutimg{
+    height: 18cm;
+    margin-top: 150px;
+    margin-left: 48.5%;
+    border-radius: 2cm;
+}
+
+.aboutheading{
+    color: rgb(18, 220, 149);
+    margin-top: -820px;
+    margin-left: 36%;
+    font-size: 70px;
+    font-family: EuclidCircularSemibold,sans-serif;
+    font-weight: bold;
+}
+
+.aboutheading2{
+    color: white;
+    font-size: 70px;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-family: var(--sans);
+    font-weight: normal;
+}
+
+.aboutheading3{
+    color: white;
+    font-family: var(--sans);
+    font-size: xx-large;
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.aboutpara1{
+    color: white;
+    font-family: var(--sans);
+    font-size: x-large;
+    margin-top: 100px;
+    margin-left: 45px;
+}
+
+.aboutpara2{
+    color: white;
+    font-family: var(--sans);
+    font-size: x-large;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.aboutpara3{
+    color: white;
+    font-family: var(--sans);
+    font-size: x-large;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.aboutpara4{
+    color: white;
+    font-family: var(--sans);
+    font-size: x-large;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.aboutpara5{
+    color: white;
+    font-family: var(--sans);
+    font-size: x-large;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+#investing{
+    background-color: black;
+    height: 26cm;
+}
+
+.investimg{
+    height: 18cm;
+}
+
+
+.investheading{
+    color: white;
+    margin-left: 3%;
+    margin-top: -650px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: EuclidCircularSemibold,sans-serif;
+    
+}
+
+.investheading a{
+    text-decoration: none;
+    color: #dab600;
+    border-style: none;
+
+}
+.investheading a:hover{
+    transition: 0.5s;
+    color: white;
+}
+.investpara{
+    color: white;
+    margin-top: 50px;
+    padding-top: 0px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: normal;
+    font-family: var(--sans);
+}
+
+.tradingview-widget-container{
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 100px;
+    align-items: center;
+}
+
+#news{
+    height: 30cm;
+    background-color: #262a2c;
+    margin-top: 25px;
+}
+
+.tradingview-widget-container2{
+    margin-left: 250px;
+    padding-top: 60px;
+}
+
+.newsheading{
+    color: #bacecc;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: EuclidCircularSemibold,sans-serif;
+    margin-left: 550px;
+    padding-top: 50px;
+}
+
+footer {
+    background-color: whitesmoke;
+    color: #262a2c;
+    padding: 30px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .contact-us h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .contact-us label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact-us input,
+  .contact-us textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .contact-us button[type="submit"] {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-us button[type="submit"]:hover {
+    background-color: #ddd;
+  }
+.copy{
+    margin-top: 50px;
+    font-size: large;
+}

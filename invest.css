@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .main {
+    font-size: 65px;
+    /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: "Arial Bold", sans-serif, "Monofonto";
+    position: absolute;
+    margin-left: 35%;
+    font-weight: bold;
+    max-height: 50px;
+    /* margin-top: 30px; */
+    padding-top: 30px;
+  }
+  .mainp {
+    font-family: "Arial Bold", sans-serif, "Monofonto";
+    font-weight: bold;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-left: 10%;
+    max-width: 80%;
+    height: 30px;
+    /* margin-left: 30px; */
+    text-align: center;
+  }
+  .c-item{
+    height: 480px;
+    object-fit: cover;
+    margin-top: 350px;
+  }
+  .btn{
+    margin-top: 400px;
+  }
+  .tradingview-widget-container1{
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 100px;
+    align-items: center;
+  }
+  .tradingview-widget-container2{
+    position: absolute;
+    margin-top: -600px;
+    margin-bottom:500px;
+    margin-left: 40%;
+    /* margin-right: 100px; */
+    align-items: center;
+  }
